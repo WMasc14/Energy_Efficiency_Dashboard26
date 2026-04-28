@@ -1,0 +1,20 @@
+reactorlab/
+│
+├── backend/
+│   ├── main.py
+│   ├── models.py
+│   ├── simulator.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── index.html
+│   ├── package.json
+│   └── src/
+│       ├── App.jsx
+│       ├── api.js
+│       ├── components/
+│       │   ├── Dashboard.jsx
+│       │   ├── Controls.jsx
+│       │   └── Plot.jsx
+│
+└── README.md
