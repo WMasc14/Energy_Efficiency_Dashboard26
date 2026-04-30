@@ -1,0 +1,57 @@
+energy_efficiency_dashboard/
+├── app/
+│   ├── main.py
+│   ├── pages/
+│   │   ├── overview.py
+│   │   ├── machines.py
+│   │   ├── production.py
+│   │   ├── alarms.py
+│   │   └── sustainability.py
+│   └── components/
+│       ├── cards.py
+│       ├── charts.py
+│       └── tables.py
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── mock/
+│       └── generate_mock_data.py
+│
+├── etl/
+│   ├── extract.py
+│   ├── transform.py
+│   ├── load.py
+│   └── scheduler.py
+│
+├── models/
+│   ├── kpi.py
+│   ├── anomaly.py
+│   └── forecast.py
+│
+├── database/
+│   ├── connection.py
+│   └── schema.sql
+│
+├── config/
+│   └── settings.py
+│
+├── tests/
+│   └── test_kpi.py
+│
+├── requirements.txt
+└── README.md
+
+# =========================
+# requirements.txt
+# =========================
+pandas
+numpy
+streamlit
+plotly
+sqlalchemy
+psycopg2-binary
+scikit-learn
+apscheduler
+
+WM14...!
